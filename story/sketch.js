@@ -8,10 +8,10 @@ var myFont;
 
 function preload(){
   // put preload code here
-  sounds.push({name: "Story 1", sound: loadSound('assets/Piazza di San Marco 7.wav')});
-  sounds.push({name: "Story 2", sound: loadSound('assets/Piazza di San Marco 8.wav')});
-  sounds.push({name: "Story 3", sound: loadSound('assets/Piazza di San Marco 9.wav')});
-  sounds.push({name: "Story 4", sound: loadSound('assets/Via San Zanobi.wav')});
+  sounds.push({name: "The Club", sound: loadSound('assets/Piazza di San Marco 7.wav')});
+  sounds.push({name: "Restaurant Men", sound: loadSound('assets/Piazza di San Marco 8.wav')});
+  sounds.push({name: "Hands", sound: loadSound('assets/Piazza di San Marco 9.wav')});
+  sounds.push({name: "Curly", sound: loadSound('assets/Via San Zanobi.wav')});
 
   myFont = loadFont("assets/Roboto/Roboto-Regular.ttf");
 }
